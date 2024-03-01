@@ -55,8 +55,11 @@ ul, ol {
     color: #404BBF;
 }
 
+.solution{
+    background-color: #2e2f42;
+}
+
 .solution-title {
-    background-color: #2E2F42;
         font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
@@ -72,10 +75,11 @@ ul, ol {
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #FFFFFF;
-        cursor: default;
+        cursor: pointer;
 }
 
-.solution-button:hover{
+.solution-button:hover,
+.solution-button:focus{
     background-color: #404BBF;
 }
 
@@ -103,6 +107,10 @@ ul, ol {
         color: 434455;
 }
 
+.team {
+    background-color: #F4F4FD;
+}
+
 .team-title {
         font-weight: 700;
         font-size: 36px;
@@ -115,7 +123,9 @@ ul, ol {
 
 .team-menu {}
 
-.team-list-item {}
+.team-list-item {
+    background-color: #FFFFFF;
+}
 
 .team-image {}
 
